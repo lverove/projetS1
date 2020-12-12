@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/styles-typographie-couleurs.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/lib/normalize.css">
 </head>
 <body>
 <header>
-    <div class="nav-toogle">
+
+</header>
+    <div class="nav-toogle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toogle-bar"></div>
     </div>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="contact.html">Accueil</a></li>
             <li><a href="article-1.html">Total Recall ... le REMAKE</a></li>
@@ -24,6 +26,8 @@
             <li><a href="contact.html">Me contacter</a></li>
         </ul>
     </nav>
-</header>
+<footer>
+
+</footer>
 </body>
 </html>

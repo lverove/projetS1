@@ -1,0 +1,14 @@
+body{
+    font-family: "Roboto Light";
+    color: #D5F0F4;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: 0 20px;
+    background-color: #022934;
+}
+header,footer{
+    background-color: #08222F;
+}
+a{
+  text-decoration: none;
+}
