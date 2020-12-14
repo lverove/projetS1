@@ -1,0 +1,17 @@
+.bloc_projet li{
+    display: block;
+    border: 1px solid black;
+    background-color: #394E59;
+    padding: 5px 0;
+    box-shadow: 3px 3px black;
+}
+.bloc_projet li:hover{
+    background-color: #BA7682;
+}
+.bloc_projet ul{
+    margin: 50px 0;
+}
+.bloc_projet a {
+    color: #D5F0F4;
+    text-decoration: none;
+}
