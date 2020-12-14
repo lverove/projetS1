@@ -1,0 +1,45 @@
+.contact-section>h2{
+
+    margin-bottom: 50px;
+}
+form{
+    margin: 0;
+    padding: 0;
+    padding-left: 10%;
+}
+.contact-form-text{
+    display: block;
+    width: 85%;
+    box-sizing: border-box;
+    margin: 16px 8px;
+    border: 1px solid #BA7682;
+    background-color: #05141C;
+    padding: 20px 40px;
+    outline: none;
+    color: #D5F0F4;
+    transition: 0.5s;
+}
+.contact-form-text:focus{
+    border: none;
+    box-shadow: 0 0 10px 4px #D5F0F4;
+}
+textarea.contact-form-text{
+    margin-top: 40px;
+    resize: none;
+    height: 200px;
+}
+.contact-form-btn{
+    font-family: "Roboto Light";
+    font-size: 16px;
+    position: relative;
+    width: 125px;
+    right: 15px;
+    margin: 20px 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0;
+    background-color: #08222F;
+    color: #BA7682;
+    padding: 12px 0;
+}
+

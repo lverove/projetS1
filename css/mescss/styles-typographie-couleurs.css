@@ -9,12 +9,12 @@ header,footer{
     width: 370px;
 }
 h1{
-    position: relative;
-    top: -50px;
     font-family: Syncopate;
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
+    position: relative;
+    top: -50px;
 }
 h2{
     font-size: 24px;
@@ -29,6 +29,7 @@ h2,h3{
     font-size: 14px;
     text-decoration: underline;
     text-align: center;
+    padding-bottom: 20px;
 }
 p {
     text-align: left;
