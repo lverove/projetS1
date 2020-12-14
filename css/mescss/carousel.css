@@ -1,0 +1,33 @@
+section.carousel {
+    background-color: #08222F;
+    padding: 20px 0;
+}
+ul.carousel-items{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+li.carousel-item{
+    flex: 1 0 110px;
+    margin-right: 50px;
+    scroll-snap-align: center;
+}
+ul.carousel-items{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.centrage-carousel-3{
+    padding-right: 35px;
+}
+.carousel-items p{
+    text-align: center;
+}
+.centrage-carousel-2 p{
+    padding-top: 31px;
+}
+.centrage-carousel-3 p{
+    padding-top: 2px;
+}
+.carousel{
+    margin-bottom: 50px;
+}
