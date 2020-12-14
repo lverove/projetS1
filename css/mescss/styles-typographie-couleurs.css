@@ -33,6 +33,7 @@ h2,h3{
 p {
     text-align: left;
     font-size: 18px;
+    line-height: 1.6rem;
 }
 .texte>p>a,.centrage-carousel-1>p>a,.centrage-carousel-2>p>a,.centrage-carousel-3>p>a{
     text-decoration: none;
